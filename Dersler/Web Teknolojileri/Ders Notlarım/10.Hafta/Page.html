@@ -1,0 +1,107 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        function print() {
+            var a = document.getElementById("txt").value;
+            if(a!="")
+            alert(a);
+        }
+
+        function check() {
+            var a = document.getElementById("pass1").value;
+            var b = document.getElementById("pass2").value;
+            var p = document.getElementById("p");
+
+            if (a == "") {
+                p.innerHTML = "Here can't be left empty";
+            }
+            else {
+
+                if (a == b)
+                alert("These are same");
+                else alert("These are different");
+            }
+        }
+
+        function control() {
+            var rd1 = document.getElementById("rd1");
+            var rd2 = document.getElementById("rd2");
+
+            if (rd1.checked == true)
+                alert(txt1.value);
+            else if (rd2.checked == true)
+                alert(txt2.value);
+
+        }
+
+        function control2() {
+            var slc = document.getElementById("slc");
+
+            alert(slc.options.length + slc.options[slc.selectedIndex].value + slc.value);
+    }
+
+        function change() {
+
+            var div = document.getElementsByTagName("div");
+
+            div[0].innerHTML = "1.Div was changed";
+            div[0].style.color = "green";
+            div[0].style.backgroundColor = "black";
+
+            for (var i = 1; i < div.length; i++) {
+                div[i].innerHTML=i+1+".Div was changed";
+            }
+
+        }
+
+    </script>
+</head>
+<body>
+    Show:<br />
+    <input type="text" name="name" id="txt" />
+    <input type="button" name="send" value="Show" onclick="print();" />
+
+    <br /><br />
+
+    Check:<br />
+    <input type="text" name="password1" id="pass1" />
+    <p id="p"></p>
+    <input type="text" name="password2" id="pass2" />
+    <input type="button" name="send2" onclick="check();" value="check" />
+
+    <br /><br />
+
+    Radio:<br />
+    <input type="radio" id="rd1" name="sex" />
+    <input type="text" id="txt1" />
+    <br />
+    <input type="radio" id="rd2" name="sex" />
+    <input type="text" id="txt2" />
+    <br />
+    <input type="button" value="send" onclick="control();" />
+
+    <br /><br />
+
+    Select:<br />
+    <select id="slc">
+        <option value="sau">Sakarya University</option>
+        <option value="ıtu">Istanbul Tecnical University</option>
+        <option value="odtu">Middle East Technical University</option>
+    </select>
+    <input type="button" value="send" onclick="control2();" />
+
+    <br /><br />
+
+    Div:<br />
+    <div>1.Div</div>
+    <div>2.Div</div>
+    <div>3.Div</div>
+    <div>4.Div</div>
+    <div>5.Div</div>
+    <div>6.Div</div>
+    <input type="button" value="change" onclick="change();"/>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+nav{
+    background-color: aquamarine;
+}
+li{
+    display: inline-block;
+}
+a{
+   text-decoration: none;
+}
+div{
+    color: red;
+}
+h3,p{
+    background-color:bisque;
+}
+p b{
+    background-color: red;
+}
+span:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+section > div{
+    background-color:black;
+}
+p{
+    text-decoration:underline;
+    text-decoration-color:red;
+    text-align:center;
+    text-transform:capitalize;
+    line-height:40px;
+    font-size:2em; /*it doubles size of default font and it also can be 20px*/
+    font-weight:bold;
+    font-family:sans-serif,fantasy;
+}
+.div {
+    border-style: solid;
+    border-color: pink;
+    display: inline-block;
+    /*padding-top:10px;
+    padding-right:20px;
+    padding-bottom:30px;
+    padding-left:15px;*/
+    padding: 10px 20px 30px 15px;
+    margin:10px 50px 25px 35px;
+}

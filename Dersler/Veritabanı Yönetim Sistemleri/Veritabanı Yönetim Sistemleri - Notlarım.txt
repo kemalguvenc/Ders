@@ -1,0 +1,133 @@
+Tablolar ve Sütunlar -> ""
+Veriler 	     -> ''
+
+----- Komutlar -----
+SELECT
+	- DISTINCT
+	- ... INTO
+FROM
+WHERE (AND OR = != < <= > >=)
+	- LIKE/NOT LIKE
+	- IS/IS NOT
+	- BETWEEN (AND)
+	- IN
+ORDER BY
+	- ASC/DESC (% _)
+AS
+INNER JOIN (ON =)
+LEFT OUTER JOIN (ON =)
+RIGHT OUTER JOIN (ON =)
+CROSS JOIN (ON =)
+FULL OUTER JOIN (ON =)
+INSERT INTO ("","") VALUES ('','')
+INSERT INTO ... SELECT
+UPDATE (SET) -> Where kullanmak lazım.
+DELETE FROM -> Where kullanmak lazım.
+
+CREATE DATABASE/SCHEMA/TABLE/INDEX/SEQUENCE
+DROP DATABASE/SCHEMA/TABLE/INDEX
+TRUNCATE TABLE
+ALTER TABLE (ADD/DROP/ALTER COLUMN)
+SEQUANCE -> NEXTVAL/CURRVAL
+
+CREATE TABLE "Urunler" (
+	"urunNo" SERIAL,
+	"kodu" CHAR(6) NOT NULL,
+	"adi" VARCHAR(40) NOT NULL,
+	"urunTipi" INTEGER NOT NULL, 
+	"uretimTarihi" DATE DEFAULT '2019-01-01',
+	"birimFiyati" MONEY,
+	"miktari" SMALLINT DEFAULT 0,
+	CONSTRAINT "urunlerPK" PRIMARY KEY("urunNo"),
+	CONSTRAINT "urunlerUnique" UNIQUE("kodu"),
+	CONSTRAINT "urunlerCheck" CHECK("miktari" >= 0),
+	CONSTRAINT "urunlerFK" FOREIGN KEY("urunTipi") REFERENCES "UrunTipleri"("tipNo") ON DELETE NO ACTION ON UPDATE NO ACTION
+);
+
+CREATE OR REPLACE VIEW "" AS ...
+
+COUNT()
+LIMIT OFFSET
+MAX()
+MIN()
+SUM()
+AVG()
+
+GROUP BY -> Satır içi sorgularda şart gözüküyor.
+HAVING
+
+Alt Sorgu -> WHERE (Tekli ve Çoklu (IN ANY ALL))
+	  -> Having
+Satır içi (inline) Alt Sorgu
+
+İlintili Sorgu -> EXISTS/NOT EXISTS
+
+UNION/UNION ALL
+INTERSECT
+EXCEPT
+
+Transaction -> BEGIN; COMMIT; -> ACID Atomic Consistency Isolation Durability
+
+CREATE OR REPLACE FUNCTION ... (...)
+RETURNS ... (INT, TABLE)
+AS
+$$
+DECLARE
+	x INT;
+	y STRING;
+	musteriler customer%ROWTYPE;
+	personel RECORD;
+BEGIN
+	x:=1;
+	y:='a' || 'b' || E'\r\n';
+	RETURN x;
+	RETURN QUERY SELECT "staff_id", "first_name", "last_name" FROM staff
+                 WHERE "staff_id" = personelNo;
+END
+$$
+LANGUAGE 'plpgsql' IMMUTABLE SECURITY DEFINER; --- VOLATILE SECURITY INVOKER
+--------------------------------
+IF miktar < 100 THEN
+    ...
+ELSEIF miktar >= 100 AND miktar < 200 THEN
+    ...
+ELSEIF miktar >= 200 AND miktar < 300 THEN
+    ...
+ELSE
+    ...
+END IF;
+--------------------------------
+CASE
+    WHEN sonuc > 0 THEN
+        ...
+    WHEN sonuc < 0 THEN
+        ...
+    WHEN 0 THEN
+	...
+    ELSE
+        ...
+END CASE;
+--------------------------------
+WHILE (NOT) ... LOOP
+END LOOP;
+--------------------------------
+LOOP
+	IF ... THEN
+		EXIT;
+	END IF;
+	
+	EXIT WHEN ...
+	CONTİNUE WHEN ...
+END LOOP;
+--------------------------------
+FOR i IN 1..10 LOOP
+	...
+END LOOP
+FOR i IN REVERSE 10..1 LOOP
+	...
+END LOOP
+FOR i IN REVERSE 10..1 BY 2 LOOP
+	...
+END LOOP
+
+EXPLAIN ANALYSE

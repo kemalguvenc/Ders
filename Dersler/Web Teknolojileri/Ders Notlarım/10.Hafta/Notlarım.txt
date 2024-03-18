@@ -1,0 +1,1 @@
+Javascript'te text'i kontrol et. White space'leri temizle.

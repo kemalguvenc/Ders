@@ -1,0 +1,10 @@
+C:\Users\Root\Desktop\Unit Converter\Unit Converter\bin\Debug\Unit Converter.exe.config
+C:\Users\Root\Desktop\Unit Converter\Unit Converter\bin\Debug\Unit Converter.exe
+C:\Users\Root\Desktop\Unit Converter\Unit Converter\bin\Debug\Unit Converter.pdb
+C:\Users\Root\Desktop\Unit Converter\Unit Converter\obj\Debug\Unit Converter.csprojAssemblyReference.cache
+C:\Users\Root\Desktop\Unit Converter\Unit Converter\obj\Debug\Unit_Converter.Form1.resources
+C:\Users\Root\Desktop\Unit Converter\Unit Converter\obj\Debug\Unit_Converter.Properties.Resources.resources
+C:\Users\Root\Desktop\Unit Converter\Unit Converter\obj\Debug\Unit Converter.csproj.GenerateResource.cache
+C:\Users\Root\Desktop\Unit Converter\Unit Converter\obj\Debug\Unit Converter.csproj.CoreCompileInputs.cache
+C:\Users\Root\Desktop\Unit Converter\Unit Converter\obj\Debug\Unit Converter.exe
+C:\Users\Root\Desktop\Unit Converter\Unit Converter\obj\Debug\Unit Converter.pdb

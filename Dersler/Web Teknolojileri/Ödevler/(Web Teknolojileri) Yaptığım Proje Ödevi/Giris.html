@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Giriş</title>
+
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Giriş">
+    <meta name="keywords" content="Giriş,Üye Hesabı">
+    <meta name="author" content="Muhammet Kemal Güvenç">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/dea668164e.js" crossorigin="anonymous"></script>
+
+    <!-- İkon -->
+    <link rel="icon" href="Kaynaklar/ikonlar/city-solid.ico" type="image/x-icon" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="Kaynaklar/styles.css" />
+
+    <!-- Javascript -->
+    <script src="Kaynaklar/javascript.js" type="application/javascript"></script>
+
+</head>
+
+<body>
+    <header>
+        ÜYE HESABI
+    </header>
+
+    <nav>
+        <div class="container-fluid">
+            <div class="row" id="menu">
+                <div class="col-lg">
+                    <a href="index.html">
+                        <i class="fas fa-home fa-fw"></i> Hakkımda
+                    </a>
+                </div>
+                <div class="col-lg">
+                    <a href="CV.html">
+                        <i class="fas fa-address-card fa-fw"></i> Cv
+                    </a>
+                </div>
+                <div class="col-lg">
+                    <a href="Sehrim.html">
+                        <i class="fas fa-city fa-fw"></i> Şehrim
+                    </a>
+                </div>
+                <div class="col-lg">
+                    <a href="Mirasimiz.html">
+                        <i class="fas fa-monument fa-fw"></i> Mirasımız
+                    </a>
+                </div>
+                <div class="col-lg">
+                    <a href="Iletisim.html">
+                        <i class="fas fa-file-signature fa-fw"></i> İletişim
+                    </a>
+                </div>
+                <div class="col-lg">
+                    <a href="#" id="active">
+                        <i class="fas fa-sign-in-alt fa-fw"></i> Giriş
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <article>
+        <div class="container">
+            <br />
+            <div class="row">
+                <div class="col col-xs col-sm col-md col-lg col-xl"></div>
+                <div class="col col-xs col-sm col-md col-lg col-xl">
+                    <img src="Kaynaklar/avatar.svg" alt="avatar" />
+                </div>
+                <div class="col col-xs col-sm col-md col-lg col-xl"></div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col col-xs col-sm col-md col-lg col-xl"></div>
+                <div class="col col-xs col-sm col-md col-lg col-xl">
+                    <form action="Giris.php" method="post">
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="ad">E-Posta:</label>
+                                </td>
+                                <td>
+                                    <input type="email" name="ad" id="ad" placeholder="E-Postanızı giriniz!" required autofocus/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="sifre">Şifre:</label>
+                                </td>
+                                <td>
+                                    <input type="password" name="sifre" id="sifre" placeholder="Şifrenizi giriniz!" required />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><input type="submit" value="Giriş" id="giris" /></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div class="col col-xs col-sm col-md col-lg col-xl"></div>
+            </div>
+            <br />
+        </div>
+    </article>
+
+    <footer>
+        <p>Kişisel Web Sayfam --- #EvdeKalTürkiye</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+p{
+    background-color: blueviolet;
+}
+
+div{
+    background-color: red;
+}
+
+#example{
+    text-align: right;
+    color: blue;
+    font-style: italic;
+}
+
+.exampleclass{
+    text-align: center;
+    color:brown;
+}
+
+li.example2{
+    font-size: 42;
+}
+
+.odd{
+    background-color: antiquewhite;
+}
+
+.even{
+    background-color: beige;
+}

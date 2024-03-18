@@ -1,0 +1,6 @@
+C:\Users\Root\Desktop\Animation of Shapes\Animation of Shapes\obj\Debug\Animation of Shapes.csprojAssemblyReference.cache
+C:\Users\Root\Desktop\Animation of Shapes\Animation of Shapes\bin\Debug\Animation of Shapes.exe.config
+C:\Users\Root\Desktop\Animation of Shapes\Animation of Shapes\bin\Debug\Animation of Shapes.exe
+C:\Users\Root\Desktop\Animation of Shapes\Animation of Shapes\bin\Debug\Animation of Shapes.pdb
+C:\Users\Root\Desktop\Animation of Shapes\Animation of Shapes\obj\Debug\Animation of Shapes.exe
+C:\Users\Root\Desktop\Animation of Shapes\Animation of Shapes\obj\Debug\Animation of Shapes.pdb

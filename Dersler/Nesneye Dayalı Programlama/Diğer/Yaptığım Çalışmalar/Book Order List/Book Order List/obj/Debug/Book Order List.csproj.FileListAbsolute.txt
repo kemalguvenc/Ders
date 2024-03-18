@@ -1,0 +1,10 @@
+C:\Users\Root\Desktop\Book Order List\Book Order List\bin\Debug\Book Order List.exe.config
+C:\Users\Root\Desktop\Book Order List\Book Order List\bin\Debug\Book Order List.exe
+C:\Users\Root\Desktop\Book Order List\Book Order List\bin\Debug\Book Order List.pdb
+C:\Users\Root\Desktop\Book Order List\Book Order List\obj\Debug\Book Order List.csprojAssemblyReference.cache
+C:\Users\Root\Desktop\Book Order List\Book Order List\obj\Debug\Book_Order_List.Form1.resources
+C:\Users\Root\Desktop\Book Order List\Book Order List\obj\Debug\Book_Order_List.Properties.Resources.resources
+C:\Users\Root\Desktop\Book Order List\Book Order List\obj\Debug\Book Order List.csproj.GenerateResource.cache
+C:\Users\Root\Desktop\Book Order List\Book Order List\obj\Debug\Book Order List.csproj.CoreCompileInputs.cache
+C:\Users\Root\Desktop\Book Order List\Book Order List\obj\Debug\Book Order List.exe
+C:\Users\Root\Desktop\Book Order List\Book Order List\obj\Debug\Book Order List.pdb

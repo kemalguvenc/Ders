@@ -1,0 +1,86 @@
+﻿--- Tag Helper ---
+
+asp-controller
+asp-action
+asp-for
+asp-route-...(id) -> OgrEkle?numara=5
+asp-validation-for
+asp-items=HTML.GetEnumSelectItems<>()
+asp-items=new SelectList(data, dataValue, dataText, selectedValue);
+
+--- HTML Helper ---
+
+HTML.ActionLink("metin", "action", "controller", route(Dictionary));
+@Html.DisplayNameFor(model => model.Name)
+HTML.DisplayFor(modelItem => item.Name)
+
+--- Veri Tipleri ---
+
+Controller'dan View'lara veri göndermek için kullanılırlar.
+
+ViewBag.mesaj="asd";   ---------> Yönlendirme Yok - Dönüşüm Yok
+ViewData["mesaj"]="asd"; ---------> Yönlendirme Yok - Dönüşüm Var
+TempData["mesaj"]="asd"; ---------> Yönlendirme Var - Dönüşüm Var
+
+--- Entity Framework ---
+
+[Key] -> Primary Key
+[ForeignKey("asdId")]
+[DataType(DataType.asd)]
+[Required(ErrorMessage ="Lütfen bir yazar adı giriniz")]
+[MaxLength(100)]
+[Display(Name = "Kitap Adı")]
+[Bind("KitapID,KtapAdi,YazarID")] Kitap kitap
+
+public DbSet<Model İsmi> Tablo Adı {get; set;}
+add-migration asd
+update-database
+veriTipi? -> int? -> NULL
+
+--- Diğer Şeyler ---
+
+[HttpGet] -> Varsayılan
+[HttpPost]
+
+View(gidilecek View, yollanacak model);
+RedirectToAction("action","controller",route(Dictionary));
+
+HttpContext.Request.Query["OgrAd"]
+
+ViewData["Title"] -> Sekmedeki başlık
+
+@{} @ @: @**@
+
+Razor -> HTML ile C# bir arada kullanmamızı sağlıyor.
+
+CRUD -> Create Read Update Delete
+
+--- Anlamadıklarım ---
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+asp-validation-summary="ModelOnly"
+
+[ValidateAntiForgeryToken]
+
+var y = k.Yazarlar.Include(x=>x.Kitaplar).FirstOrDefault(x => x.YazarID == id);
+
+
+
+
+per = DB.Personel.Include(p=>p.Departman)
+await per.ToListAsync();
+--- Link ---
+
+nesneler.Where(nesne=>nesne.ad=="Kemal" && nesne=>nesne.soyad=="Güvenç");
+nesneler.OrderBy(nesne=>nesne.ad);
+nesneler.OrderByDescending(nesne=>nesne.ad);
+
+nesneler.Take(3);
+
+int x = nesneler.Max(nesne=>nesne.maas);
+int x = nesneler.Min(nesne=>nesne.maas);
+int x = nesneler.Sum(nesne=>nesne.maas);
+int x = nesneler.Average(nesne=>nesne.maas);

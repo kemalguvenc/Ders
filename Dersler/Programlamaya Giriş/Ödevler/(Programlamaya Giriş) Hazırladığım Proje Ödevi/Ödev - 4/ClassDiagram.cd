@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="File_Management">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAQAAAAAAAAAAAAEAAAAAAAABAAAgAAAAA=</HashCode>
+      <FileName>Ödev - 4.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Student">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAQAAAAAAAkAAEIAAQEAAEAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Ödev - 4.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Clas_s">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEABAACAAAAAAAgACQAAAAQAAAAAAAAAACAAAAAAAg=</HashCode>
+      <FileName>Ödev - 4.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="School">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAABAAAAAAAAAAAAAAAAAAAAQAAAAAAgAAA=</HashCode>
+      <FileName>Ödev - 4.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Program">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ödev - 4.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

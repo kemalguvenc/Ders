@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="tr-TR">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title></title>
+
+</head>
+
+<body>
+
+    <form id="myForm" action="Example-of-Form-(3-1).php" method="post">
+
+        <p>Place Folder:  <input type="text" placeholder="Please, enter your name!!!" name="exp_name" /> </p>
+        <p>Auto Focus: <input type="text" autofocus name="exp_focus" /> </p>
+        <p>AutoComplete (OFF): <input type="text" autocomplete="off" name="exp_autocomplete_off" /> </p>
+        <p>Required: <input oninvalid="this.setCustomValidity('You must enter a data!!!')"
+                            oninput="this.setCustomValidity('')"
+                            type="text" required name="exp_required" /> </p>
+        <p>E-Mail: <input type="email" name="exp_email" /> </p>
+        <p>Pattern: <input oninvalid="this.setCustomValidity('You must enter a data which include just number!!!')"
+                           oninput="this.setCustomValidity('')"
+                           type="text" pattern="[0-9]*" name="exp_pattern" required/> </p>
+
+        <datalist id="list1">
+
+            <select>
+
+                <option value="asd1">asd1</option>
+                <option value="asd2">asd2</option>
+                <option value="asd3">asd3</option>
+
+            </select>
+
+        </datalist>
+
+        <p>AutoComplete (ON): <input type="text" autocomplete="on" list="list1" name="exp_autocomplete_on" /> </p>
+
+        <p>Multiple File: <input type="file" multiple name="exp_file" /> </p>
+
+
+
+        <input type="submit" value="Submit (1)" />
+        <input type="submit" value="Submit (2)" formaction="Example-of-Form-(3-2)" formmethod="post" />
+
+    </form>
+
+</body>
+</html>

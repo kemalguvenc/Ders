@@ -1,0 +1,10 @@
+C:\Users\Root\Desktop\Dates of Final Exam\Dates of Final Exam\bin\Debug\Dates of Final Exam.exe.config
+C:\Users\Root\Desktop\Dates of Final Exam\Dates of Final Exam\bin\Debug\Dates of Final Exam.exe
+C:\Users\Root\Desktop\Dates of Final Exam\Dates of Final Exam\bin\Debug\Dates of Final Exam.pdb
+C:\Users\Root\Desktop\Dates of Final Exam\Dates of Final Exam\obj\Debug\Dates of Final Exam.csprojAssemblyReference.cache
+C:\Users\Root\Desktop\Dates of Final Exam\Dates of Final Exam\obj\Debug\Dates_of_Final_Exam.Form1.resources
+C:\Users\Root\Desktop\Dates of Final Exam\Dates of Final Exam\obj\Debug\Dates_of_Final_Exam.Properties.Resources.resources
+C:\Users\Root\Desktop\Dates of Final Exam\Dates of Final Exam\obj\Debug\Dates of Final Exam.csproj.GenerateResource.cache
+C:\Users\Root\Desktop\Dates of Final Exam\Dates of Final Exam\obj\Debug\Dates of Final Exam.csproj.CoreCompileInputs.cache
+C:\Users\Root\Desktop\Dates of Final Exam\Dates of Final Exam\obj\Debug\Dates of Final Exam.exe
+C:\Users\Root\Desktop\Dates of Final Exam\Dates of Final Exam\obj\Debug\Dates of Final Exam.pdb

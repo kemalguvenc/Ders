@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>İletişim</title>
+
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="İletişim">
+    <meta name="keywords" content="Kemal,İletişim">
+    <meta name="author" content="Muhammet Kemal Güvenç">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/dea668164e.js" crossorigin="anonymous"></script>
+
+    <!-- İkon -->
+    <link rel="icon" href="Kaynaklar/ikonlar/city-solid.ico" type="image/x-icon" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="Kaynaklar/styles.css" />
+
+    <!-- Javascript -->
+    <script src="Kaynaklar/javascript.js" type="application/javascript"></script>
+
+</head>
+
+<body>
+    <header>
+        İLETİŞİM KURUN
+    </header>
+
+    <nav>
+        <div class="container-fluid">
+            <div class="row" id="menu">
+                <div class="col-lg">
+                    <a href="index.html">
+                        <i class="fas fa-home fa-fw"></i> Hakkımda
+                    </a>
+                </div>
+                <div class="col-lg">
+                    <a href="CV.html">
+                        <i class="fas fa-address-card fa-fw"></i> Cv
+                    </a>
+                </div>
+                <div class="col-lg">
+                    <a href="Sehrim.html">
+                        <i class="fas fa-city fa-fw"></i> Şehrim
+                    </a>
+                </div>
+                <div class="col-lg">
+                    <a href="Mirasimiz.html">
+                        <i class="fas fa-monument fa-fw"></i> Mirasımız
+                    </a>
+                </div>
+                <div class="col-lg">
+                    <a href="#" id="active">
+                        <i class="fas fa-file-signature fa-fw"></i> İletişim
+                    </a>
+                </div>
+                <div class="col-lg">
+                    <a href="Giris.html">
+                        <i class="fas fa-sign-in-alt fa-fw"></i> Giriş
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <article>
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col-lg"></div>
+                <div class="col-lg-9">
+                    <form action="Iletisim.php" method="post" onsubmit="return Iletisim_Kontrol()">
+                        <fieldset class="p-2">
+                            <legend class="w-auto">İletişim Formu</legend>
+                            <table>
+                                <tr>
+                                    <td><h5 class="uyari">* Doldurulması zorunlu!</h5></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="ad"><span class="uyari">*</span>Ad:</label></td>
+                                    <td><input type=text id="ad" name="ad" autofocus placeholder="Doldurulması şart!" /></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="soyad"><span class="uyari">*</span>Soyad:</label></td>
+                                    <td><input type=text id="soyad" name="soyad" placeholder="Doldurulması şart!" /></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="eposta"><span class="uyari">*</span>E-Posta:</label></td>
+                                    <td><input type=text id="eposta" name="eposta" placeholder="Doldurulması şart!" /></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="cinsiyet"><span class="uyari">*</span>Cinsiyet:</label></td>
+                                    <td id="cinsiyet">
+                                        <label for="erkek">Erkek</label>
+                                        <input type="radio" id="erkek" name="cinsiyet" value="erkek" />
+                                        <label for="kadın">Kadın</label>
+                                        <input type="radio" id="kadın" name="cinsiyet" value="kadın" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="konular"><span class="uyari">*</span>Sorunun konusu:</label></td>
+                                    <td id="konular">
+                                        <table>
+                                            <tr><td><input type="checkbox" id="bilgisayar" name="konu[]" value="bilgisayar" /><label for="bilgisayar">Bilgisayar</label></td></tr>
+                                            <tr><td><input type="checkbox" id="sanat" name="konu[]" value="sanat" /><label for="sanat">Sanat</label></td></tr>
+                                            <tr><td><label for="diger">Diğer: </label><input type="text" id="diger" name="konu[]" /></td></tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="aciliyet"><span class="uyari">*</span>Sorunun aciliyeti:</label></td>
+                                    <td>
+                                        <select id="aciliyet" name="aciliyet" size="3">
+                                            <option value="Çok Acil">Çok Acil</option>
+                                            <option value="Acil" selected>Acil</option>
+                                            <option value="Az Acil">Az Acil</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="tarih"><span class="uyari">*</span>Sorunun oluştuğu tarih:</label></td>
+                                    <td><input type="date" id="tarih" name="tarih" max='0-0-0' /></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="dosya">Sorunla ilgili fotoğraf: (eğer varsa)</label></td>
+                                    <td>
+                                        <button type="button" id="btn-dosya" onclick="dosya_tiklama()">Fotoğrafı Yükle</button>
+                                        <input type="file" id="dosya" name="dosya" onchange="dosya_isim_degistir(1)" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="soru"><span class="uyari">*</span>Soru:</label></td>
+                                    <td><textarea id="soru" name="soru" rows="5" cols="25" placeholder="Doldurulması şart!"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="reset" value="Temizle" onclick="dosya_isim_degistir(2)"/></td>
+                                    <td><input type="submit" value="Gönder" /></td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="col-lg"></div>
+            </div>
+        </div>
+    </article>
+
+    <br />
+
+    <footer>
+        <p>Kişisel Web Sayfam --- #EvdeKalTürkiye</p>
+    </footer>
+
+    <script>
+
+        /* Tarih input'una girilecek verinin en fazla bugün olmasını sağlar. */
+
+        max_tarih();
+
+    </script>
+
+</body>
+</html>

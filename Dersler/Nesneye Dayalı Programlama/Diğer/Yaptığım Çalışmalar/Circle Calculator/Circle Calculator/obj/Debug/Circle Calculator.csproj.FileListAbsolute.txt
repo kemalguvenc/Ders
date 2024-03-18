@@ -1,0 +1,10 @@
+C:\Users\Root\Desktop\Circle Calculator\Circle Calculator\bin\Debug\Circle Calculator.exe.config
+C:\Users\Root\Desktop\Circle Calculator\Circle Calculator\bin\Debug\Circle Calculator.exe
+C:\Users\Root\Desktop\Circle Calculator\Circle Calculator\bin\Debug\Circle Calculator.pdb
+C:\Users\Root\Desktop\Circle Calculator\Circle Calculator\obj\Debug\Circle Calculator.csprojAssemblyReference.cache
+C:\Users\Root\Desktop\Circle Calculator\Circle Calculator\obj\Debug\Circle_Calculator.Form1.resources
+C:\Users\Root\Desktop\Circle Calculator\Circle Calculator\obj\Debug\Circle_Calculator.Properties.Resources.resources
+C:\Users\Root\Desktop\Circle Calculator\Circle Calculator\obj\Debug\Circle Calculator.csproj.GenerateResource.cache
+C:\Users\Root\Desktop\Circle Calculator\Circle Calculator\obj\Debug\Circle Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Root\Desktop\Circle Calculator\Circle Calculator\obj\Debug\Circle Calculator.exe
+C:\Users\Root\Desktop\Circle Calculator\Circle Calculator\obj\Debug\Circle Calculator.pdb

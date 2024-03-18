@@ -1,0 +1,10 @@
+C:\Users\Root\Desktop\Ideal Weight Calculator\Ideal Weight Calculator\bin\Debug\Ideal Weight Calculator.exe.config
+C:\Users\Root\Desktop\Ideal Weight Calculator\Ideal Weight Calculator\bin\Debug\Ideal Weight Calculator.exe
+C:\Users\Root\Desktop\Ideal Weight Calculator\Ideal Weight Calculator\bin\Debug\Ideal Weight Calculator.pdb
+C:\Users\Root\Desktop\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\Ideal Weight Calculator.csprojAssemblyReference.cache
+C:\Users\Root\Desktop\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\Ideal_Weight_Calculator.Form1.resources
+C:\Users\Root\Desktop\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\Ideal_Weight_Calculator.Properties.Resources.resources
+C:\Users\Root\Desktop\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\Ideal Weight Calculator.csproj.GenerateResource.cache
+C:\Users\Root\Desktop\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\Ideal Weight Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Root\Desktop\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\Ideal Weight Calculator.exe
+C:\Users\Root\Desktop\Ideal Weight Calculator\Ideal Weight Calculator\obj\Debug\Ideal Weight Calculator.pdb

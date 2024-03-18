@@ -1,0 +1,8 @@
+A#Ahmet Sarı#2010
+B#Mehmet Gelmez#2009
+A#Ayse Konar#2018
+A#Veli Sonar#2019
+B#Sinem Lale#2005 
+C#Tarık Beyaz#2007
+B#Ceren Hüma#2010
+B#Azra Kara#2012

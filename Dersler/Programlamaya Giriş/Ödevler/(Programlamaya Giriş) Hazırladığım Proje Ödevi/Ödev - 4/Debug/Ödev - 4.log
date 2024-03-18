@@ -1,0 +1,3 @@
+﻿  Ödev - 4.cpp
+C:\Users\Ahmet\Desktop\Kodlar\Ödev - Proje\Ödev - 4\Ödev - 4.cpp(314,12): warning C4244: 'bağımsız değişken': 'time_t' - 'unsigned int' dönüşümü; veri kaybı olabilir
+  Ödev - 4.vcxproj -> C:\Users\Ahmet\Desktop\Kodlar\Ödev - Proje\Debug\Ödev - 4.exe

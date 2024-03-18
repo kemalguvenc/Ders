@@ -1,0 +1,57 @@
+﻿<html lang="tr-TR">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title></title>
+
+</head>
+
+<body>
+
+    <form action="Go.php" method="post">
+
+        <label for="Name"><b>Name:</b></label>
+        <input type="text" name="name" id="Name"/>
+        <br />
+
+        <label for="Surname"><b>Surname:</b></label>
+        <input type="text" name="surname" id="Surname"/>
+        <br />
+
+        <label for="Password"><b>Password:</b></label> 
+        <input type="password" name="password" id="Password"/>
+        <br />
+
+        <label for="Sex"><b>Sex:</b></label>
+        Man<input type="radio" name="sex" id="Sex" value="1" checked  />
+        Woman<input type="radio" name="sex" id="Sex" value="2" />
+        <br />
+
+        <label><b>Your Favorite Sport:</b></label>
+        <input type="checkbox" name="sports1" value="1" />Football
+        <input type="checkbox" name="sports2" value="2" />Basketball
+        <input type="checkbox" name="sports3" value="3" />Tennis
+        <br />
+
+        <label for="City"><b>Your City:</b></label>
+        <br />
+        <select name="city" id="City" size="5">
+            <option value="34">Istanbul</option>
+            <option value="54">Sakarya</option>
+            <option value="61">Trabzon</option>
+        </select>
+        <br />
+
+        <label for="Adress"><b>Adress:</b></label>                                                       <!-- for="the id of form element" -->
+        <br />
+        <textarea rows="5" cols="40" name="adress" id="Adress" disabled></textarea>
+        <br />
+
+        <input type="button" name="button" value="Button" />
+        <input type="submit" name="submit" value="Submit" />
+
+    </form>
+
+</body>
+</html>

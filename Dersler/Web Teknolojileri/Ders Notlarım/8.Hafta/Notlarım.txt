@@ -1,0 +1,2 @@
+Php’de dizileri kullanarak tablo yapma ödevi verdi.
+Daha sonra sadece css'si anlattı.

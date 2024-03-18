@@ -1,0 +1,54 @@
+﻿p {
+    color: blue;
+    line-height: 40px;
+}
+
+#margin {
+    /*padding-top:10px;
+    padding-right:20px;
+    padding-bottom:30px;
+    padding-left:15px;*/
+    padding: 10px 20px 30px 15px;
+    margin: 10px 50px 25px 35px;
+}
+
+.font {
+    font-style: italic;
+    font-size: 42px; /*2em*/
+    font-weight: bold;
+    font-family: sans-serif,fantasy;
+}
+
+h1, p {
+    background-color: aliceblue;
+}
+
+p.font {
+    text-align: right;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-transform: capitalize; /*uppercase*/
+}
+
+a:hover {
+    cursor: crosshair; /*pointer*/
+}
+
+    p a {
+        border-color: #FF0000;
+        border-style: solid;
+    }
+
+    p > li {
+        display: inline-block;
+    }
+
+/*
+
+    width: 100%;
+    border-radius: 10%;
+    list-style-type: square
+    border: 10px solid darkslategray;
+    visibility:hidden;
+
+    */

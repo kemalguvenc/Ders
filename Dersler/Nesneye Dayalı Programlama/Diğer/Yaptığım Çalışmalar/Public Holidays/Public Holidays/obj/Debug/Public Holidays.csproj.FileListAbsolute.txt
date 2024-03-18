@@ -1,0 +1,10 @@
+C:\Users\Root\Desktop\Public Holidays\Public Holidays\bin\Debug\Public Holidays.exe.config
+C:\Users\Root\Desktop\Public Holidays\Public Holidays\bin\Debug\Public Holidays.exe
+C:\Users\Root\Desktop\Public Holidays\Public Holidays\bin\Debug\Public Holidays.pdb
+C:\Users\Root\Desktop\Public Holidays\Public Holidays\obj\Debug\Public Holidays.csprojAssemblyReference.cache
+C:\Users\Root\Desktop\Public Holidays\Public Holidays\obj\Debug\Public_Holidays.Form1.resources
+C:\Users\Root\Desktop\Public Holidays\Public Holidays\obj\Debug\Public_Holidays.Properties.Resources.resources
+C:\Users\Root\Desktop\Public Holidays\Public Holidays\obj\Debug\Public Holidays.csproj.GenerateResource.cache
+C:\Users\Root\Desktop\Public Holidays\Public Holidays\obj\Debug\Public Holidays.csproj.CoreCompileInputs.cache
+C:\Users\Root\Desktop\Public Holidays\Public Holidays\obj\Debug\Public Holidays.exe
+C:\Users\Root\Desktop\Public Holidays\Public Holidays\obj\Debug\Public Holidays.pdb

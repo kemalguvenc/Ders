@@ -1,0 +1,7 @@
+C:\Users\Root\Desktop\Transpose of a Matrix\Transpose of a Matrix\bin\Debug\Transpose of a Matrix.exe.config
+C:\Users\Root\Desktop\Transpose of a Matrix\Transpose of a Matrix\bin\Debug\Transpose of a Matrix.exe
+C:\Users\Root\Desktop\Transpose of a Matrix\Transpose of a Matrix\bin\Debug\Transpose of a Matrix.pdb
+C:\Users\Root\Desktop\Transpose of a Matrix\Transpose of a Matrix\obj\Debug\Transpose of a Matrix.csprojAssemblyReference.cache
+C:\Users\Root\Desktop\Transpose of a Matrix\Transpose of a Matrix\obj\Debug\Transpose of a Matrix.csproj.CoreCompileInputs.cache
+C:\Users\Root\Desktop\Transpose of a Matrix\Transpose of a Matrix\obj\Debug\Transpose of a Matrix.exe
+C:\Users\Root\Desktop\Transpose of a Matrix\Transpose of a Matrix\obj\Debug\Transpose of a Matrix.pdb

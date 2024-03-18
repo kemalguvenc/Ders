@@ -1,0 +1,34 @@
+1. Ödevde Dikkate Alınacak Operatörler
+Sayısal Operatörler:
++
+++
+-
+--
+*
+/
+%
+&
+|
+^
+=
++=
+-=
+/=
+*=
+%=
+&=
+|=
+^=
+
+İlişkisel Operatörler
+<
+<=
+>
+>=
+==
+!=
+
+Mantıksal Operatörler
+&&
+||
+!

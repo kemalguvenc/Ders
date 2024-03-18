@@ -1,0 +1,14 @@
+C:\Users\Root\Desktop\Karalama\Karalama\obj\Debug\Karalama.csprojAssemblyReference.cache
+C:\Users\Root\Desktop\Karalama\Karalama\obj\Debug\Karalama.csproj.CoreCompileInputs.cache
+C:\Users\Root\Desktop\Karalama\Karalama\bin\Debug\Karalama.exe.config
+C:\Users\Root\Desktop\Karalama\Karalama\bin\Debug\Karalama.exe
+C:\Users\Root\Desktop\Karalama\Karalama\bin\Debug\Karalama.pdb
+C:\Users\Root\Desktop\Karalama\Karalama\obj\Debug\Karalama.exe
+C:\Users\Root\Desktop\Karalama\Karalama\obj\Debug\Karalama.pdb
+C:\Users\Root\Desktop\Temsilciler ve Olaylar\Karalama\bin\Debug\Karalama.exe.config
+C:\Users\Root\Desktop\Temsilciler ve Olaylar\Karalama\bin\Debug\Karalama.exe
+C:\Users\Root\Desktop\Temsilciler ve Olaylar\Karalama\bin\Debug\Karalama.pdb
+C:\Users\Root\Desktop\Temsilciler ve Olaylar\Karalama\obj\Debug\Karalama.csprojAssemblyReference.cache
+C:\Users\Root\Desktop\Temsilciler ve Olaylar\Karalama\obj\Debug\Karalama.csproj.CoreCompileInputs.cache
+C:\Users\Root\Desktop\Temsilciler ve Olaylar\Karalama\obj\Debug\Karalama.exe
+C:\Users\Root\Desktop\Temsilciler ve Olaylar\Karalama\obj\Debug\Karalama.pdb

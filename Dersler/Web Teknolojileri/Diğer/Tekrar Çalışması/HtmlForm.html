@@ -1,0 +1,173 @@
+﻿<html lang="tr-TR">
+<head>
+    <meta charset="utf-8" />
+    <title>Home Page</title>
+</head>
+<body>
+
+    <table width="100%" height="100%" border="1">
+        <tr id="top" height="20%" bgcolor="red">
+            <td colspan="2" align="center"><img src="https://teknoseyir.com/wp-content/themes/ts/images/ts_logo.svg" /></td>
+        </tr>
+
+        <tr id="middle" height=70%">
+
+            <td id="navigator" width="10%" valign="top">
+                <table>
+                    <tr><td><a href="Index.html">Home Page</a></td></tr>
+                    <tr><td><a href="HtmlTags.html">HTML Tags</a></td></tr>
+                    <tr><td><a href="#">HTML Form</a></td></tr>
+                    <tr><td><a href="Php.php">PHP</a></td></tr>
+                    <tr><td><a href="Css.html">CSS</a></td></tr>
+                    <tr><td><a href="Javascript.html">Javascript</a></td></tr>
+                    <tr><td><a href="Boostrap.html">Bootstrap</a></td></tr>
+                    <tr><td><a href="jQuery.html">jQuery</a></td></tr>
+                </table>
+            </td>
+
+            <!-- ------------------------------------------- Article ----------------------------------------------------- -->
+
+            <td id="article">
+                <!--Form-->
+
+                <form action="HtmlForm-1.php" method="post">
+                    <!-- The other method is get -->
+                    <!-- -------------------Be carefull here------------------------- -->
+
+                    <label for="text">Input - Text1: </label>
+                    <input type="text" id="text1" name="Text1" placeholder="Place Holder!!!" autofocus autocomplete="off" required
+                           oninvalid="this.setCustomValidity('You must enter a data which include just number!!!')"
+                           oninput="this.setCustomValidity('')"
+                           pattern="[0-9]*" />
+                    <br /><br />
+
+                    <datalist id="datalist">
+                        <select>
+                            <option>option1</option>
+                            <option>option2</option>
+                            <option>option3</option>
+                        </select>
+                    </datalist>
+
+                    <label for="text">Input - Text2: </label>
+                    <input type="text" id="text2" name="Text2" list="datalist" autocomplete="on" />
+                    <br /><br />
+
+                    <!-- ------------------------------------------------------------- -->
+
+                    <label for="password">Input - Password: </label>
+                    <input type="password" id="password" name="Password" />
+                    <br /><br />
+
+                    <label for="radio1">Input - Radio1: </label>
+                    <input type="radio" id="radio1" name="Radio" value="1" checked />
+                    <label for="radio2">Input - Radio2: </label>
+                    <input type="radio" id="radio2" name="Radio" value="2" />
+                    <br /><br />
+
+                    <label for="checkbox1">Input - Checkbox1: </label>
+                    <input type="checkbox" id="checkbox1" name="Checkbox[]" value="1" />
+                    <label for="checkbox2">Input - Checkbox2: </label>
+                    <input type="checkbox" id="checkbox2" name="Checkbox[]" value="2" />
+                    <br /><br />
+
+                    <label for="file">Input - File: </label>
+                    <input type="file" id="file" name="File" multiple /> <!-- Look at here -->
+                    <br /><br />
+
+                    <label for="email">Input - Email: </label>
+                    <input type="email" id="email" name="Email" />
+                    <br /><br />
+
+                    <label for="color">Input - Color: </label>
+                    <input type="color" id="color" name="Color" />
+                    <br /><br />
+
+                    <label for="date">Input - Date: </label>
+                    <input type="date" id="date" name="Date" />
+                    <br /><br />
+
+                    <label for="datetime">Input - Datetime: </label>
+                    <input type="datetime" id="datetime" name="Datetime" />
+                    <br /><br />
+
+                    <label for="datetime-local">Input - Datetime-local: </label>
+                    <input type="datetime-local" id="datetime-local" name="Datetime-local" />
+                    <br /><br />
+
+                    <label for="month">Input - Month: </label>
+                    <input type="month" id="month" name="Month" />
+                    <br /><br />
+
+                    <label for="week">Input - Week: </label>
+                    <input type="week" id="week" name="Week" />
+                    <br /><br />
+
+                    <label for="time">Input - Time: </label>
+                    <input type="time" id="time" name="Time" />
+                    <br /><br />
+
+                    <label for="hidden">Input - Hidden: </label>
+                    <input type="hidden" id="hidden" name="Hidden" />
+                    <br /><br />
+
+                    <label for="image">Input - Image: </label>
+                    <input type="image" id="image" name="Image" />
+                    <br /><br />
+
+                    <label for="number">Input - Number: </label>
+                    <input type="number" id="number" name="Number" />
+                    <br /><br />
+
+                    <label for="range">Input - Range: </label>
+                    <input type="range" id="range" name="Range" />
+                    <br /><br />
+
+                    <label for="search">Input - Search: </label>
+                    <input type="search" id="search" name="Search" />
+                    <br /><br />
+
+                    <label for="tel">Input - Tel: </label>
+                    <input type="tel" id="tel" name="Tel" />
+                    <br /><br />
+
+                    <label for="url">Input - Url: </label>
+                    <input type="url" id="url" name="Url" />
+                    <br /><br />
+
+                    <br /><br />
+
+                    <!--Text Area-->
+                    <label for="textarea">Text Area: </label>
+                    <br />
+                    <textarea cols="30" rows="10" id="textarea" name="Textarea" disabled>ladsklşsakdlşsak</textarea>
+
+                    <br /><br />
+
+                    <!--Select-->
+                    <label for="select">Select: </label>
+                    <select id="select" name="Select" size="2">
+                        <option value="1">İstanbul</option>
+                        <option value="2" selected>Sakarya</option>
+                        <option value="3">Ankara</option>
+                    </select>
+
+                    <br /><br />
+
+                    <!--Others-->
+
+                    <input type="button" id="button" name="Button" value="Button" />
+                    <input type="reset" id="reset" name="Reset" />
+                    <input type="submit" id="submit1" name="Submit1" value="Submit - POST" />
+                    <input type="submit" id="submit2" name="Submit2" value="Submit - GET" formaction="Htmlform-2.php" formmethod="get" />
+
+                </form>
+            </td>
+
+        </tr>
+
+        <tr id="bottom-footer" height="10%"><td colspan="2" bgcolor="red"></td></tr>
+    </table>
+
+</body>
+</html>

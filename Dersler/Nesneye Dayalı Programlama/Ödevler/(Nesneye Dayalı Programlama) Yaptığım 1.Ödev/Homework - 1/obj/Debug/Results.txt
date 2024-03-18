@@ -1,0 +1,11 @@
+AA         0
+BA         0
+BB         2
+CB         7
+CC        21
+DC        20
+DD        14
+FF        36
+
+Number of student passed          64
+Number of failed students         36

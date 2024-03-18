@@ -1,0 +1,49 @@
+﻿<html lang="tr-TR">
+<head>
+    <meta charset="utf-8" />
+    <title>Home Page</title>
+    <script type="text/javascript">
+        function fnc() {
+            document.getElementById("example").innerHTML = "Changed the div";
+        }
+    </script>
+</head>
+<body>
+
+    <table width="100%" height="100%" border="1">
+        <tr id="top" height="20%" bgcolor="red">
+            <td colspan="2" align="center"><img src="https://teknoseyir.com/wp-content/themes/ts/images/ts_logo.svg" /></td>
+        </tr>
+
+        <tr id="middle" height=70%">
+
+            <td id="navigator" width="10%" valign="top">
+                <table>
+                    <tr><td><a href="Index.html">Home Page</a></td></tr>
+                    <tr><td><a href="HtmlTags.html">HTML Tags</a></td></tr>
+                    <tr><td><a href="HtmlForm.html">HTML Form</a></td></tr>
+                    <tr><td><a href="Php.php">PHP</a></td></tr>
+                    <tr><td><a href="Css.html">CSS</a></td></tr>
+                    <tr><td><a href="#">Javascript</a></td></tr>
+                    <tr><td><a href="Boostrap.html">Bootstrap</a></td></tr>
+                    <tr><td><a href="jQuery.html">jQuery</a></td></tr>
+                </table>
+            </td>
+
+            <!-- ------------------------------------------- Article ----------------------------------------------------- -->
+
+            <td id="article">
+
+                <div id="example">Here is div</div>
+                <input type="button" value="Change" onclick="fnc();" />
+                <script type="text/javascript" src="Javascript.js"></script>
+
+            </td>
+
+        </tr>
+
+        <tr id="bottom-footer" height="10%"><td colspan="2" bgcolor="red"></td></tr>
+    </table>
+
+</body>
+</html>

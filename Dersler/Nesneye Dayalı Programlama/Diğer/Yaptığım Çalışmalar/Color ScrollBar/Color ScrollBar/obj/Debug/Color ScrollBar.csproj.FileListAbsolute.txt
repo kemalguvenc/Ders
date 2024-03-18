@@ -1,0 +1,10 @@
+C:\Users\Root\Desktop\Color ScrollBar\Color ScrollBar\bin\Debug\Color ScrollBar.exe.config
+C:\Users\Root\Desktop\Color ScrollBar\Color ScrollBar\bin\Debug\Color ScrollBar.exe
+C:\Users\Root\Desktop\Color ScrollBar\Color ScrollBar\bin\Debug\Color ScrollBar.pdb
+C:\Users\Root\Desktop\Color ScrollBar\Color ScrollBar\obj\Debug\Color ScrollBar.csprojAssemblyReference.cache
+C:\Users\Root\Desktop\Color ScrollBar\Color ScrollBar\obj\Debug\Color_ScrollBar.Form1.resources
+C:\Users\Root\Desktop\Color ScrollBar\Color ScrollBar\obj\Debug\Color_ScrollBar.Properties.Resources.resources
+C:\Users\Root\Desktop\Color ScrollBar\Color ScrollBar\obj\Debug\Color ScrollBar.csproj.GenerateResource.cache
+C:\Users\Root\Desktop\Color ScrollBar\Color ScrollBar\obj\Debug\Color ScrollBar.csproj.CoreCompileInputs.cache
+C:\Users\Root\Desktop\Color ScrollBar\Color ScrollBar\obj\Debug\Color ScrollBar.exe
+C:\Users\Root\Desktop\Color ScrollBar\Color ScrollBar\obj\Debug\Color ScrollBar.pdb

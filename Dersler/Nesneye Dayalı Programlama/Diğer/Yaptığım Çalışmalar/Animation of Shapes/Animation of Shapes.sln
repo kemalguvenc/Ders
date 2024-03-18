@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animation of Shapes", "Animation of Shapes\Animation of Shapes.csproj", "{5746D77A-3AE7-4601-9073-64613F7714AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5746D77A-3AE7-4601-9073-64613F7714AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5746D77A-3AE7-4601-9073-64613F7714AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5746D77A-3AE7-4601-9073-64613F7714AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5746D77A-3AE7-4601-9073-64613F7714AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {352C93CB-2DAD-4431-923D-DA848D697479}
+	EndGlobalSection
+EndGlobal

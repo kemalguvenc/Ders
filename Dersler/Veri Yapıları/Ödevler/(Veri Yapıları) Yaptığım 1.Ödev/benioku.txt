@@ -1,0 +1,7 @@
+Sayilar.txt dosyasında listelere atılacak değerler dışında, dosyanın içinde kaç satır olduğu ve satırlardaki 
+sayı adetleri hakkında bilgiler de bulunmaktadır. Böylece program gereksiz işlemler yapmayarak çok daha hızlı 
+bir şekilde çalışmaktadır. Ayrıca Sayilar.txt dosyası doc klasörü altındadır. Sayilar.txt'nin ilk satırında 
+okunacak satır sayısı yazar ve her satırın başında, o satırda okunacak kaç eleman olduğu yazar.
+
+
+Not: Bu konuyu dersin koordinatörü Dr.Öğr.Üyesi Muhammed Fatih Adak hocaya sordum. Kendisi sıkıntı olmayacağını söyledi.

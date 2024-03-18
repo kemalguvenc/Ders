@@ -1,0 +1,59 @@
+﻿<html lang="tr-TR">
+<head>
+    <meta charset="utf-8" />
+    <title>Example of Form (2)</title>
+</head>
+
+<body>
+
+    <form action="Example-of-Form-(2).php" method="post">
+
+        Name:
+        <input type="text" name="name" />
+        <br />
+
+        Surname:
+        <input type="text" name="surname" />
+        <br />
+
+        E-Mail:
+        <input type="text" name="mail" />
+        <br />
+
+        Password:
+        <input type="password" name="password" />
+        <br />
+
+        Hobbies:
+        <br />
+        Football<input type="checkbox" name="hobbies[]" value="1" />
+        Art<input type="checkbox" name="hobbies[]" value="2" />
+        Hiking<input type="checkbox" name="hobbies[]" value="3" />
+
+        <br />
+        Team:
+        <br />
+        Fenerbahçe<input type="radio" name="team" value="1" />
+        Galatasaray<input type="radio" name="team" value="2" />
+        Beşiktaş<input type="radio" name="team" value="3" />
+        <br />
+
+        Description:
+        <textarea cols="30" rows="10" name="description"></textarea>
+
+        <br />
+
+        <select name="city">
+
+            <option value="1">İstanbul</option>
+            <option value="2" selected>Sakarya</option>
+            <option value="3">Ankara</option>
+
+        </select>
+
+        <input type="submit" name="submit" />
+
+    </form>
+
+</body>
+</html>

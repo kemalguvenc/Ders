@@ -1,0 +1,10 @@
+C:\Users\Root\Desktop\Grade Calculator\Grade Calculator\bin\Debug\Grade Calculator.exe.config
+C:\Users\Root\Desktop\Grade Calculator\Grade Calculator\bin\Debug\Grade Calculator.exe
+C:\Users\Root\Desktop\Grade Calculator\Grade Calculator\bin\Debug\Grade Calculator.pdb
+C:\Users\Root\Desktop\Grade Calculator\Grade Calculator\obj\Debug\Grade Calculator.csprojAssemblyReference.cache
+C:\Users\Root\Desktop\Grade Calculator\Grade Calculator\obj\Debug\Grade_Calculator.Form1.resources
+C:\Users\Root\Desktop\Grade Calculator\Grade Calculator\obj\Debug\Grade_Calculator.Properties.Resources.resources
+C:\Users\Root\Desktop\Grade Calculator\Grade Calculator\obj\Debug\Grade Calculator.csproj.GenerateResource.cache
+C:\Users\Root\Desktop\Grade Calculator\Grade Calculator\obj\Debug\Grade Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Root\Desktop\Grade Calculator\Grade Calculator\obj\Debug\Grade Calculator.exe
+C:\Users\Root\Desktop\Grade Calculator\Grade Calculator\obj\Debug\Grade Calculator.pdb

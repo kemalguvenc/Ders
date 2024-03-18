@@ -1,0 +1,13 @@
+C:\Users\Root\Desktop\'L' Shape Game\'L' Shape Game\bin\Debug\'L' Shape Game.exe.config
+C:\Users\Root\Desktop\'L' Shape Game\'L' Shape Game\bin\Debug\'L' Shape Game.exe
+C:\Users\Root\Desktop\'L' Shape Game\'L' Shape Game\bin\Debug\'L' Shape Game.pdb
+C:\Users\Root\Desktop\'L' Shape Game\'L' Shape Game\obj\Debug\'L' Shape Game.csprojAssemblyReference.cache
+C:\Users\Root\Desktop\'L' Shape Game\'L' Shape Game\obj\Debug\'L' Shape Game.csproj.CoreCompileInputs.cache
+C:\Users\Root\Desktop\'L' Shape Game\'L' Shape Game\obj\Debug\'L' Shape Game.exe
+C:\Users\Root\Desktop\'L' Shape Game\'L' Shape Game\obj\Debug\'L' Shape Game.pdb
+E:\C#\'L' Shape Game\'L' Shape Game\bin\Debug\'L' Shape Game.exe.config
+E:\C#\'L' Shape Game\'L' Shape Game\bin\Debug\'L' Shape Game.exe
+E:\C#\'L' Shape Game\'L' Shape Game\bin\Debug\'L' Shape Game.pdb
+E:\C#\'L' Shape Game\'L' Shape Game\obj\Debug\'L' Shape Game.csprojAssemblyReference.cache
+E:\C#\'L' Shape Game\'L' Shape Game\obj\Debug\'L' Shape Game.exe
+E:\C#\'L' Shape Game\'L' Shape Game\obj\Debug\'L' Shape Game.pdb

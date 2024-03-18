@@ -1,0 +1,18 @@
+C:\Users\Root\Desktop\Homework - 2\Homework - 2\obj\Debug\Homework - 2.csprojAssemblyReference.cache
+C:\Users\Root\Desktop\Homework - 2\Homework - 2\obj\Debug\Homework___2.Properties.Resources.resources
+C:\Users\Root\Desktop\Homework - 2\Homework - 2\obj\Debug\Homework - 2.csproj.GenerateResource.cache
+C:\Users\Root\Desktop\Homework - 2\Homework - 2\obj\Debug\Homework - 2.csproj.CoreCompileInputs.cache
+C:\Users\Root\Desktop\Homework - 2\Homework - 2\bin\Debug\Homework - 2.exe.config
+C:\Users\Root\Desktop\Homework - 2\Homework - 2\bin\Debug\Homework - 2.exe
+C:\Users\Root\Desktop\Homework - 2\Homework - 2\bin\Debug\Homework - 2.pdb
+C:\Users\Root\Desktop\Homework - 2\Homework - 2\obj\Debug\Homework - 2.exe
+C:\Users\Root\Desktop\Homework - 2\Homework - 2\obj\Debug\Homework - 2.pdb
+E:\C#\Homework - 2\Homework - 2\bin\Debug\Homework - 2.exe.config
+E:\C#\Homework - 2\Homework - 2\bin\Debug\Homework - 2.exe
+E:\C#\Homework - 2\Homework - 2\bin\Debug\Homework - 2.pdb
+E:\C#\Homework - 2\Homework - 2\obj\Debug\Homework - 2.csprojAssemblyReference.cache
+E:\C#\Homework - 2\Homework - 2\obj\Debug\Homework___2.Properties.Resources.resources
+E:\C#\Homework - 2\Homework - 2\obj\Debug\Homework - 2.csproj.GenerateResource.cache
+E:\C#\Homework - 2\Homework - 2\obj\Debug\Homework - 2.csproj.CoreCompileInputs.cache
+E:\C#\Homework - 2\Homework - 2\obj\Debug\Homework - 2.exe
+E:\C#\Homework - 2\Homework - 2\obj\Debug\Homework - 2.pdb

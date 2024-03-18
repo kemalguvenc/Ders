@@ -1,0 +1,6 @@
+C:\Users\Root\Desktop\Kutu Oluşturma-Silme\Kutu Oluşturma-Silme\bin\Debug\Kutu Oluşturma-Silme.exe.config
+C:\Users\Root\Desktop\Kutu Oluşturma-Silme\Kutu Oluşturma-Silme\bin\Debug\Kutu Oluşturma-Silme.exe
+C:\Users\Root\Desktop\Kutu Oluşturma-Silme\Kutu Oluşturma-Silme\bin\Debug\Kutu Oluşturma-Silme.pdb
+C:\Users\Root\Desktop\Kutu Oluşturma-Silme\Kutu Oluşturma-Silme\obj\Debug\Kutu Oluşturma-Silme.csprojAssemblyReference.cache
+C:\Users\Root\Desktop\Kutu Oluşturma-Silme\Kutu Oluşturma-Silme\obj\Debug\Kutu Oluşturma-Silme.exe
+C:\Users\Root\Desktop\Kutu Oluşturma-Silme\Kutu Oluşturma-Silme\obj\Debug\Kutu Oluşturma-Silme.pdb

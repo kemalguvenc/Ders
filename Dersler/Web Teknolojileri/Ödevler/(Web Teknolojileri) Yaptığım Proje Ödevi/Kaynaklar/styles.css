@@ -1,0 +1,141 @@
+@font-face {                                                /* Baþlýktaki yazýlar için font ekler. Kaynak: https://www.fonttr.com/fontDeta?font=levibrush */
+    font-family: Head-Font;
+    src: url(Font/Baslik/LEVIBRUSH.ttf);
+}
+
+@font-face {                                                /* Sitenin genelinde kullanýlan fontu ekler. Kaynak: https://www.fonttr.com/fontDeta?font=rumraisin-regular */
+    font-family: Text-Font;
+    src: url(Font/Genel/RumRaisin-Regular.ttf);
+}
+
+body {                                                      /* Arka plan rengini deðiþtirir. */
+    background-color: aliceblue;
+}
+
+header {                                                    /* Baþlýk yazýlarý için gerekli ayarlarý yapar. */
+    font-size: 5em;
+    font-family: Head-Font;
+    text-align: center;
+    padding-top: 15px;
+}
+
+@media only screen and (max-width: 500px) {                 /* Geniþliði 500 pikselin altýnda olan cihazlarda baþlýk yazýlarý sýkýntý oluþturduðu için boyutlarýný küçültür.  */
+    header {
+        font-size: 2em;
+    }
+}
+
+
+#menu {                                                     /* Sitenin menü çubuðunun rengini deðiþtirir ve içerisindeki yazýlarý ortalar. */
+    background-color: darkslategray;
+    text-align: center;
+}
+
+nav a {                                                     /* Menü çubuðunun içindeki linkler için gerekli ayarlarý yapar. */
+    color: white;
+    font-family: Text-Font;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a:hover {                                               /* Menü çubuðunun üzerine gelince daha farklý gözükmesini saðlar. */
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+}
+
+#active {                                                   /* Sitede o an bulunan yeri iþaret eden linkin, rengini deðiþtirir. */
+    background-color: limegreen;
+    color: black;
+}
+
+article {                                                   /* Sayfaýnýn içerik kýsmýndaki yazý için gerekli ayarlamalarý yapar. */
+    font-family: Text-Font;
+    font-size: 1.3em;
+    font-weight: 400;
+    min-height: calc(100vh - 250px);
+}
+
+@media only screen and (max-width: 341px) {                 /* Geniþliði 341 pikselin altýnda olan ekranlar, Cv sayfasýnda sorun yaþadýðý için o ekranlarda yazý fontunu küçültür. */
+    article {
+        font-size: 1em;
+    }
+
+    nav a {
+        font-size: 1.3em;
+    }
+}
+
+footer p {                                                  /* Footer'ýn görüntüsünü ayarlar. */
+    background-color: darkslategray;
+    font-weight: 400;
+    font-family: Text-Font;
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+img {                                                       /* Siteye eklenen fotoðraflarýn geniþliklerini ayarlar ve kenarlarýnýn yuvarlak olmasýný saðlar. */
+    width: 100%;
+    border-radius: 10%;
+}
+
+.foto-yazisi {                                              /* Fotoðraflarýn altýndan olan yazýlarý ortalar. */
+    text-align: center;
+}
+
+.foto-yazisi:hover{                                         /* Fotoðraflarýn altýndan olan yazýlarýn üzerine gelindiðinde altlarýnda çizgi çýkmasýný engeller. */
+    text-decoration:none;
+}
+
+.selfie {                                                   /* Siteye eklenen selfie'lerin yuvarlak olmasýný saðlar. */
+    border-radius: 30%;
+    width:50%;
+}
+
+.hobiler {                                                  /* Hakkýmda sayfasýndanki hobilerim listesinin içindeki yazýlarýn kenarlarýnda olan þekli kare yapar. */
+    list-style-type: square
+}
+
+.filmler {                                                  /* Hakkýmda sayfasýndanki sevdiðim filmler listesinin içindeki yazýlarýn kenarlarýnda olan þekli kare yapar. */
+    list-style-type: square
+}
+
+@media only screen and (min-width: 992px) {                 /* Küçük ekranlarda Cv sayfasýný iki parçaya ayýran çizgi sorun çýkardýðý için çizgiyi sadece belirli geniþliðe sahip ekranlar da çýkartýr. */
+    #cv-table {
+        border-left: 10px solid darkslategray;
+    }
+}
+
+fieldset {                                                  /* Ýletiþim sayfasýndaki formun etrafýný saran kenarlarýn kalýnlýðýný ayarlar. */
+    border: 2px solid;
+}
+
+.uyari {                                                    /* Ýletiþim sayfasýnda bilgi girilmesi gerekli olan kutularýn yanýna konan yýldýz iþaretini kýrmýzý yapar. */
+    color: red;
+    display: inherit;
+}
+
+#degisen-yazi-kutusu {                                      /* Þehrimiz sayfasýnda bulunan fotoðraf slaytýnýn yanýnda çýkan yazýlar ayarlar. */
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#giris {                                                    /* Giriþ ekranýnda bulunan butonunun görüntüsünü ayarlar. */
+    width: 100%;
+    border-radius: 5%;
+    background-color: darkslategray;
+    color:white;
+}
+
+#dosya {                                                    /* Ýletiþim formunda dosya input'u, küçük cihazlarda table'ýn görüntüsünü bozduðu için gizlenir ve onun yerine buton gösterilir. */
+    width: 1px;
+    visibility:hidden;
+}
