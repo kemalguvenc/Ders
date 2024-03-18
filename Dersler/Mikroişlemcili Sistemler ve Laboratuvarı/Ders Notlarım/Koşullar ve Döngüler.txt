@@ -1,0 +1,194 @@
+ORG 0000h
+SJMP Program
+ORG 0030h
+
+Function:
+;Örnek olmasi için olusturuldu.
+;Altinda "RET" ifadesi oldugu için bir fonksiyon gibi davranir.
+RET
+
+Function2:
+;Örnek olmasi için olusturuldu
+;Altinda "RET" ifadesi oldugu için bir fonksiyon gibi davranir.
+RET
+
+Function3:
+;Örnek olmasi için olusturuldu
+;Altinda "RET" ifadesi oldugu için bir fonksiyon gibi davranir.
+RET
+
+Program:
+
+;------------------------ (IF Küçüktür Kosul Kontrolü)
+;int x = 3;
+;if(x < 4){
+;	Function();
+;}
+
+MOV R7, #03H
+
+MOV A, R7
+CLR C
+SUBB A, #04H
+JNC Cikis1
+LCALL Function
+Cikis1:
+
+;------------------------ (IF Küçükt Esittir Kosul Kontrolü)
+;int x = 3;
+;if(x <= 4){
+;	Function();
+;}
+
+MOV R7, #03H
+
+MOV A, R7
+SETB C
+SUBB A, #04H
+JNC Cikis2
+LCALL Function
+Cikis2:
+
+;------------------------ (IF Büyüktür Kosul Kontrolü)
+;int x = 3;
+;if(x > 4){
+;	Function();
+;}
+
+MOV R7, #03H
+
+MOV A, R7
+SETB C
+SUBB A, #04H
+JC Cikis3
+LCALL Function
+Cikis3:
+
+;------------------------ (IF Büyük Esittir Kosul Kontrolü)
+;int x = 3;
+;if(x >= 4){
+;	Function();
+;}
+
+MOV R7, #03H
+
+MOV A, R7
+CLR C
+SUBB A, #04H
+JC Cikis4
+LCALL Function
+Cikis4:
+
+;------------------------ (IF-ELSE Kosul Kontrolü)
+;int x = 3;
+;if(x < 4){
+;	Function();
+;}
+;else{
+;	Function2();
+;}
+
+MOV R7, #03H
+
+MOV A, R7
+CLR C
+SUBB A, #04H
+JNC Cikis5
+LCALL Function
+Cikis5:
+LCALL Function2
+
+;------------------------ (IF-ELSE IF-ELSE Kosul Kontrolü)
+;int x = 3;
+;if(x > 4){
+;	Function();
+;}
+;else if(x == 4){
+;	Function2();
+;}
+;else{
+;	Function3();
+;}
+
+MOV R7, #03H
+
+MOV A, R7
+SETB C
+SUBB A, #04H
+JC Cikis6
+
+LCALL Function
+LJMP Cikis8
+
+Cikis6:
+MOV A, R7
+XRL A, #04H
+JNZ Cikis7
+
+LCALL Function2
+LJMP Cikis8
+
+Cikis7:
+LCALL Function3
+
+Cikis8:
+
+;------------------------ (WHILE Döngüsü)
+;int x = 3;
+;while(x <= 4){
+;	Function();
+;}
+
+MOV R7, #03H
+
+DonguWhile:
+MOV A, R7
+SETB C
+SUBB A, #04H
+JNC Cikis9
+
+LCALL Function
+
+LJMP DonguWhile
+Cikis9:
+
+;------------------------ (DO WHILE Döngüsü)
+;int x = 3;
+;do{
+;	Function();
+;}while(x <= 4);
+
+MOV R7, #03H
+
+DonguDoWhile:
+LCALL Function
+
+MOV A, R7
+SETB C
+SUBB A, #04H
+JNC Cikis10
+
+LJMP DonguDoWhile
+Cikis10:
+
+;------------------------ (FOR Döngüsü)
+;int x;
+;for(x = 3; x <= 4; ++x){
+;	Function();
+;}
+
+MOV R7, #03H
+
+DonguFor:
+MOV A, R7
+SETB C
+SUBB A, #04H
+JNC Cikis11
+
+LCALL Function
+
+INC R7
+LJMP DonguFor
+Cikis11:
+
+END

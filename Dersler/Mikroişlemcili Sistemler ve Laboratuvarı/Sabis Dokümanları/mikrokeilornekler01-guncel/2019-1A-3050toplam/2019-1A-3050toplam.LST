@@ -1,0 +1,49 @@
+A51 MACRO ASSEMBLER  2019_1A_3050TOPLAM                                                   03/20/2019 11:02:50 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.02
+OBJECT MODULE PLACED IN 2019-1A-3050toplam.OBJ
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE 2019-1A-3050toplam.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     ;30h ile 50h adresleri arasndaki verilerin toplamn bulan program:
+                       2     ;a. elde oluþmadð düþünerek, sonucunu 60h adresine,
+                       3     ;b. elde oluþtuðunu düþünerek, sonucun yüksek baytn 60h adresine, 
+                       4     ;düþük baytn 61h adresine yazacak þekilde tasarlaynz.
+                       5     
+0000 753001            6             mov 30h,#01h
+0003 7531F2            7             mov 31h,#0F2h
+0006 7537F8            8             mov 37h,#0F8h
+0009 753A92            9             mov 3ah,#92h
+000C 753FF4           10             mov 3fh,#0F4h
+                      11     
+000F 7830             12             MOV R0,#30H ;dizinin indisini atadim
+0011 7400             13             MOV A,#00h ;toplam degiskenini sifirladim
+0013 756000           14             MOV 60h,#00h ;toplamin yuksek byte sifirladim
+0016                  15     topla:
+0016 26               16             ADD A,@R0 ;toplama islemi
+0017 5002             17             JNC atla
+                      18             ;elde var bölgesi
+0019 0560             19             INC 60h            ;eldeyi 60h adresine ekledim
+001B                  20     atla:
+001B 08               21             INC R0
+001C B851F7           22             CJNE R0,#51h,topla
+001F F561             23             MOV 61h,A
+                      24             end
+A51 MACRO ASSEMBLER  2019_1A_3050TOPLAM                                                   03/20/2019 11:02:50 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+ATLA . . . . . . .  C ADDR   001BH   A   
+TOPLA. . . . . . .  C ADDR   0016H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
